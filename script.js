@@ -39,19 +39,47 @@ return
 if (passwordLength >128){
 alert ("put in a number less than 128 ");
 }
-
 return
-
-
 
 }
 
 var confirmUppCase = confirm("Would you like to use uppercase?")
+if (confirmUppCase) {
+    alert ("upper Case selected");
+    } else {
+    
+    alert ("lower case not selected");
+    }
+
+
 var confirmLowerCase = confirm ("Would you like to use lower case?")
+
+if (confirmUppCase) {
+    alert ("upper Case Selected");
+    } else {
+    
+    alert ("lower not selected");
+    }
+
 var confirmSymbols = confirm("Would you like to use symbols?")
+
+
+if (confirmSymbols) {
+    alert ("symbols selected");
+    } else {
+    
+    alert ("symbols not selected");
+    }
 var confirmNumbers = confirm("Would you like to use numbers?")
 
-generatePassword 
+if (confirmNumbers) {
+alert ("Numbers selected");
+} else {
+
+alert ("Numbers not selected");
+}
+
+
 
 // Write password to the #password input -password length//
 function writePassword() {
